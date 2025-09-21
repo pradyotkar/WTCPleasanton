@@ -1,0 +1,154 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+/* Hero section */
+.hero {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.hero .tagline {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: #d87a2b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #c2661d;
+}
+
+/* Section styles */
+.studio-info,
+.services,
+.gallery,
+.map-section,
+.reviews {
+    padding: 3rem 0;
+}
+
+.studio-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.studio-info li {
+    margin: 0.3rem 0;
+}
+
+/* Services */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.service-card {
+    background: #f8f8f8;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-card h3 {
+    margin: 0.5rem 0;
+    color: #d87a2b;
+}
+
+.service-card span {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+/* Gallery */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.gallery-grid img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Map */
+.map-container iframe {
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+}
+
+/* Reviews */
+.review-card {
+    background: #f8f8f8;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-card .author {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #d87a2b;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
